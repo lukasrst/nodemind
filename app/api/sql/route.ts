@@ -1,3 +1,4 @@
+//app/api/sql/route.ts
 import { pool } from "@/lib/db";
 import { NextResponse } from "next/server";
 
