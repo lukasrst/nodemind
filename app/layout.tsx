@@ -52,6 +52,9 @@ export default function RootLayout({
               <NavItem href="/" icon={<Home size={22} />} isCollapsed={isCollapsed} active={pathname === "/"}>
                 Dashboard
               </NavItem>
+              <NavItem href="/relation" icon={<Database size={22} />} isCollapsed={isCollapsed} active={pathname === "/relation"}>
+                Relation
+              </NavItem>
               <NavItem href="/manage-db" icon={<Database size={22} />} isCollapsed={isCollapsed} active={pathname === "/manage-db"}>
                 Database
               </NavItem>
